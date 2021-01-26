@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+/*##################### NAv-Bar###############*/
+ #navbar{
+     height: 100%;
+     
+     overflow: auto;
+     display: flex;
+     flex-direction: column;
+     position: fixed;
+   
+  
+ }
+ #navbar header{
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 16px;
+    
+ }
+ #navbar ul{
+  
+    display: flex;
+    flex-direction: column;
+ }
+ #navbar li{
+     border: 1px solid black;
+     padding: 10px 30px 10px 20px;
+     border-collapse: collapse;
+ }
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+/*main*/
+main{
+    margin-left:27%;
+    margin-right: 5%;
+}
+.main-section header{
+    font-size: 2rem;
+    margin: 20px 0 20px 0px;
+
+}
+.main-section p{
+    margin: 20px 0 20px 10px;
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+.main-section li{
+    margin: 0 0 5px 60px;
+    line-height: 1.6;
+}
+.main-section code{
+    background-color: rgb(247,247,247);
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    white-space: pre-line;
+}
